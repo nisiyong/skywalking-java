@@ -32,6 +32,7 @@ segmentItems:
             tags:
               - {key: mq.broker, value: not null}
               - {key: mq.topic, value: TopicTest}
+              - {key: message.tags, value: TagA}
             skipAnalysis: 'false'
           - operationName: GET:/case/rocketmq-scenario
             parentSpanId: -1
